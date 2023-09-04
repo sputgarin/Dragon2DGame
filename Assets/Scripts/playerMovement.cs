@@ -15,6 +15,11 @@ public class playerMovement : MonoBehaviour
     {
         Debug.Log("Fire");
     }
+    
+    public void PauseMenu(InputAction.CallbackContext context)
+    {
+        Debug.Log("PauseMenuOpened");
+    }
 
     
 }
