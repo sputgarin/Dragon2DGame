@@ -15,7 +15,7 @@ public class camera : MonoBehaviour
     {
         Vector3 currentPosition = transform.position;
 
-        Vector3 newPosition = currentPosition + Vector3.right * cameraSpeed * Time.deltaTime;
+        Vector3 newPosition = currentPosition + Vector3.right * (cameraSpeed * Time.deltaTime);
 
         transform.position = newPosition;
     }
