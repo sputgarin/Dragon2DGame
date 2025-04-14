@@ -41,8 +41,8 @@ public class playerMovement : MonoBehaviour
         rb.velocity = new Vector3(moveInput.x * moveSpeed, moveInput.y * moveSpeed, rb.velocity.z);
 
         // Log a message for testing purposes.
-        // Debug.Log("Horizontal Input: " + moveInput.x);
-        // Debug.Log("Vertical Input: " + moveInput.y);
+         Debug.Log("Horizontal Input: " + moveInput.x);
+         Debug.Log("Vertical Input: " + moveInput.y);
     }
     
     
@@ -50,6 +50,7 @@ public class playerMovement : MonoBehaviour
     public void Fire(InputAction.CallbackContext context)
     {
         // Debug.Log("Fire");
+        
     }
 
     // Escape key opens pause menu
